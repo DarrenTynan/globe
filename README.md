@@ -1,4 +1,4 @@
-# p5Canvas_aStar
+# globe
 
 A graphical representation of an A* Search algorithm on a grid of nodes.
 The panel is used debug information, grid information and left mouse selections.

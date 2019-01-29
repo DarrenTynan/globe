@@ -1,22 +1,19 @@
 # globe
 
-A graphical representation of an A* Search algorithm on a grid of nodes.
-The panel is used debug information, grid information and left mouse selections.
-
-The grid is a p5.js canvas, that is not responsive, so, you will need to refresh the page if changing size.
+This project started out as a how-do-I use the Three.js library. But, soon morphed into how to setup a development environment consisting of: NPM, Webpack and Babel. NPM and Webpack was easy to setup, however getting Babel to play nice was a royal pita.
 
 ## How to use
-The Grid Size and Wall Frequency are setup by default, but can be changed from the dropdowns.
-If you LMB click on a Node then the action under Left Mouse will be issued.
-You select a Source and Target node before Go For It! too see the calculation and final path.
+Setup a local server stack and either 'npm run dev'. Or 'npm run prod' to create a dist/bundle.js
 
 ## What I learnt
-* The A* Search algorithm.
-* Improved my Javascript
+* How to use NPM
+* How to install and configure Webpack (webpack.config.js)
+* How to use Webpack loaders for css files
+* How to install and configure Babel (babel.config.js)
+* Do not use .bablerc, instead use babel.config.js
 
 ## What could I improve?
-* Code recfactor the find neighbors method; instead of a buch of if's.
-* The most computational time is taken up by searching the openSet for the node with the lowest F cost. This could be optimized by using a heap data structure.
+* Hard to answer at this point, apart to improve my familiarity.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
